@@ -1,4 +1,4 @@
-import { MessageSquare, Code2, Palette, Smartphone, Search, ArrowLeft, ArrowRight } from "lucide-react";
+import { MessageSquare, Code as Code2, Palette, Smartphone, Search, ArrowLeft, ArrowRight } from "lucide-react";
 import { AnimatedText } from "@/components/AnimatedText";
 
 const services = [

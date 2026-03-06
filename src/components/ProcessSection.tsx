@@ -1,4 +1,4 @@
-import { MessageSquare, ClipboardList, Palette, Code2, Rocket, Headphones } from "lucide-react";
+import { MessageSquare, ClipboardList, Palette, Code as Code2, Rocket, Headphones } from "lucide-react";
 import { AnimatedText } from "@/components/AnimatedText";
 
 const steps = [
