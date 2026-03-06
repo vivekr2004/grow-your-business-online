@@ -30,7 +30,7 @@ const Navbar = () => {
           ))}
         </div>
         <a
-          href="#contact"
+          href="mailto:hello@webcraft.studio"
           className="hidden md:inline-flex items-center gap-2 border border-hero-dark-foreground/40 text-hero-dark-foreground px-5 py-2.5 rounded-full text-sm font-medium hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all"
         >
           Let's Talk
@@ -56,7 +56,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="mailto:hello@webcraft.studio"
             onClick={() => setOpen(false)}
             className="mt-4 inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-medium"
           >

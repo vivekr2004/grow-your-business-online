@@ -19,7 +19,7 @@ const ProcessSection = () => (
         </span>
         <h2 className="heading-lg text-foreground mt-6">How We Work</h2>
         <p className="text-muted-foreground max-w-xl mx-auto mt-4">
-          A proven six-step process that turns your idea into a high-performing website.
+          A straightforward six-step process — from first call to live website — designed to keep things simple and transparent.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
