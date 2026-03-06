@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import portfolioImg from "@/assets/portfolio-project.jpg";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const projects = [
   { num: "001", name: "FreshBite — Restaurant Website", desc: "A modern, mobile-first website with online menu and table booking for a Bangalore-based café." },
@@ -16,7 +17,9 @@ const PortfolioSection = () => (
           <span className="w-1.5 h-1.5 rounded-full bg-primary" />
           Our Creative Works
         </span>
-        <h2 className="heading-lg text-section-dark-foreground mt-6">Noteworthy Works</h2>
+        <AnimatedText as="h2" className="heading-lg mt-6" colorFrom="text-section-dark-foreground/30" colorTo="text-section-dark-foreground">
+          Noteworthy Works
+        </AnimatedText>
         <p className="text-section-dark-foreground/50 max-w-lg mx-auto mt-4">
           Real projects we've delivered for startups and small businesses in Bangalore and beyond.
         </p>

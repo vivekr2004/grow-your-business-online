@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import heroImg from "@/assets/hero-workspace.jpg";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const HeroSection = () => {
   return (
@@ -7,9 +8,22 @@ const HeroSection = () => {
       <div className="section-padding">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 pb-12">
           <div className="lg:max-w-[60%]">
-            <h1 className="heading-xl text-hero-dark-foreground">
-              We Build Sleek Websites{" "}
-              <span className="text-muted-foreground/60">That Grow Your Business</span>
+            <h1 className="heading-xl">
+              <AnimatedText
+                as="span"
+                colorFrom="text-hero-dark-foreground/30"
+                colorTo="text-hero-dark-foreground"
+              >
+                We Build Sleek Websites{" "}
+              </AnimatedText>
+              <AnimatedText
+                as="span"
+                colorFrom="text-muted-foreground/20"
+                colorTo="text-primary"
+                delay={200}
+              >
+                That Grow Your Business
+              </AnimatedText>
             </h1>
           </div>
           <div className="flex flex-col gap-4 lg:items-end">

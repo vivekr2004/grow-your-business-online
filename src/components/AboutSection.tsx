@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const AboutSection = () => {
   return (
@@ -11,16 +12,20 @@ const AboutSection = () => {
               Our Creative Agency
             </span>
             <div className="mt-8">
-              <p className="text-5xl font-bold text-foreground">10+</p>
+              <AnimatedText as="p" className="text-5xl font-bold" colorFrom="text-foreground/30" colorTo="text-foreground">
+                10+
+              </AnimatedText>
               <p className="text-sm uppercase tracking-widest text-muted-foreground mt-1">Projects Delivered</p>
             </div>
           </div>
           <div className="lg:w-2/3">
-            <h2 className="heading-lg text-foreground mb-6">
-              A young studio with big ambitions —{" "}
-              <span className="text-muted-foreground">
+            <h2 className="heading-lg mb-6">
+              <AnimatedText as="span" colorFrom="text-foreground/30" colorTo="text-foreground">
+                A young studio with big ambitions —{" "}
+              </AnimatedText>
+              <AnimatedText as="span" colorFrom="text-muted-foreground/30" colorTo="text-primary" delay={150}>
                 we craft modern websites that help startups and small businesses make a powerful first impression online.
-              </span>
+              </AnimatedText>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               <strong className="text-foreground">WebCraft Studio</strong> is a Bangalore-based web development agency founded with one mission: to give startups and small businesses access to world-class website design without the enterprise price tag. We've already helped businesses across industries launch sleek, conversion-focused websites that drive real results.

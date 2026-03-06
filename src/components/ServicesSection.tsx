@@ -1,4 +1,5 @@
 import { MessageSquare, Code2, Palette, Smartphone, Search, ArrowLeft, ArrowRight } from "lucide-react";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const services = [
   {
@@ -38,9 +39,9 @@ const ServicesSection = () => {
     <section id="services" className="bg-background py-20 md:py-28">
       <div className="section-padding">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8 mb-12">
-          <h2 className="heading-lg text-foreground lg:max-w-md">
+          <AnimatedText as="h2" className="heading-lg lg:max-w-md" colorFrom="text-foreground/30" colorTo="text-foreground">
             Comprehensive High-Grade Solutions For Your Brand
-          </h2>
+          </AnimatedText>
           <div className="lg:max-w-sm">
             <span className="badge-label mb-4 inline-flex">
               <span className="w-1.5 h-1.5 rounded-full bg-foreground" />

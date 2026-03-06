@@ -1,9 +1,11 @@
+import { AnimatedText } from "@/components/AnimatedText";
+
 const CTASection = () => (
   <section className="bg-section-dark py-20 md:py-28">
     <div className="section-padding text-center">
-      <h2 className="heading-lg text-section-dark-foreground max-w-2xl mx-auto">
+      <AnimatedText as="h2" className="heading-lg max-w-2xl mx-auto" colorFrom="text-section-dark-foreground/30" colorTo="text-primary">
         Ready to Grow Your Business Online?
-      </h2>
+      </AnimatedText>
       <p className="text-section-dark-foreground/60 max-w-lg mx-auto mt-4 mb-8">
         Whether you're launching your first website or redesigning an existing one, we'll help you stand out online. Drop us an email to get started.
       </p>

@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const faqs = [
   {
@@ -40,7 +41,9 @@ const FAQSection = () => (
           <span className="w-1.5 h-1.5 rounded-full bg-foreground" />
           FAQ
         </span>
-        <h2 className="heading-lg text-foreground mt-6">Frequently Asked Questions</h2>
+        <AnimatedText as="h2" className="heading-lg mt-6" colorFrom="text-foreground/30" colorTo="text-foreground">
+          Frequently Asked Questions
+        </AnimatedText>
       </div>
       <div className="max-w-2xl mx-auto">
         <Accordion type="single" collapsible className="space-y-3">

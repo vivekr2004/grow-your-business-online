@@ -1,11 +1,14 @@
 import { Star } from "lucide-react";
 import avatar from "@/assets/testimonial-avatar.jpg";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const TestimonialsSection = () => (
   <section className="bg-background py-20 md:py-28">
     <div className="section-padding">
       <div className="text-center mb-16">
-        <h2 className="heading-lg text-foreground">What Our Clients Say</h2>
+        <AnimatedText as="h2" className="heading-lg" colorFrom="text-foreground/30" colorTo="text-foreground">
+          What Our Clients Say
+        </AnimatedText>
         <p className="text-muted-foreground max-w-lg mx-auto mt-4">
           Don't just take our word for it — hear from the businesses we've helped launch online.
         </p>
@@ -18,9 +21,9 @@ const TestimonialsSection = () => (
           loading="lazy"
         />
         <div>
-          <blockquote className="heading-md text-foreground mb-6">
+          <AnimatedText as="blockquote" className="heading-md mb-6" colorFrom="text-foreground/30" colorTo="text-foreground">
             "WebCraft turned our rough idea into a stunning website in just three weeks. Our online orders doubled within the first month of launch."
-          </blockquote>
+          </AnimatedText>
           <p className="font-heading font-bold text-foreground uppercase text-sm">Rahul Mehta</p>
           <p className="text-muted-foreground text-sm">Founder, FreshBite Café · Bangalore</p>
           <div className="flex gap-1 mt-3">

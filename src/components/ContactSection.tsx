@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "sonner";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", company: "", message: "" });
@@ -19,7 +20,9 @@ const ContactSection = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-foreground" />
               Get In Touch
             </span>
-            <h2 className="heading-lg text-foreground mt-6">Let's Start Your Project</h2>
+            <AnimatedText as="h2" className="heading-lg mt-6" colorFrom="text-foreground/30" colorTo="text-foreground">
+              Let's Start Your Project
+            </AnimatedText>
             <p className="text-muted-foreground mt-4">
               Fill out the form below and we'll get back to you within 24 hours.
             </p>

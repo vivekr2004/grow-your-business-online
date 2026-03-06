@@ -1,4 +1,5 @@
 import { MessageSquare, ClipboardList, Palette, Code2, Rocket, Headphones } from "lucide-react";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const steps = [
   { icon: <MessageSquare size={24} />, title: "Consultation", desc: "We discuss your goals, audience, and vision." },
@@ -17,7 +18,9 @@ const ProcessSection = () => (
           <span className="w-1.5 h-1.5 rounded-full bg-foreground" />
           Our Process
         </span>
-        <h2 className="heading-lg text-foreground mt-6">How We Work</h2>
+        <AnimatedText as="h2" className="heading-lg mt-6" colorFrom="text-foreground/30" colorTo="text-foreground">
+          How We Work
+        </AnimatedText>
         <p className="text-muted-foreground max-w-xl mx-auto mt-4">
           A straightforward six-step process — from first call to live website — designed to keep things simple and transparent.
         </p>

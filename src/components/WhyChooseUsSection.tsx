@@ -1,4 +1,5 @@
 import { Zap, Search, Smartphone, Palette, TrendingUp } from "lucide-react";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const reasons = [
   { icon: <Palette size={24} />, title: "Modern Design", desc: "Visually stunning websites that leave lasting impressions and reflect your brand identity." },
@@ -16,9 +17,9 @@ const WhyChooseUsSection = () => (
           <span className="w-1.5 h-1.5 rounded-full bg-primary" />
           Why Choose Us
         </span>
-        <h2 className="heading-lg text-section-dark-foreground mt-6">
+        <AnimatedText as="h2" className="heading-lg mt-6" colorFrom="text-section-dark-foreground/30" colorTo="text-section-dark-foreground">
           Why Businesses Trust Us
-        </h2>
+        </AnimatedText>
         <p className="text-section-dark-foreground/60 max-w-xl mx-auto mt-4">
           As a lean, founder-led studio, we give every project the attention it deserves — no outsourcing, no shortcuts.
         </p>

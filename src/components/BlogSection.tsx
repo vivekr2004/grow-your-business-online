@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import blog1 from "@/assets/blog-1.jpg";
 import blog2 from "@/assets/blog-2.jpg";
 import blog3 from "@/assets/blog-3.jpg";
+import { AnimatedText } from "@/components/AnimatedText";
 
 const posts = [
   { img: blog1, title: "5 Reasons Your Small Business Needs a Website in 2025", date: "Feb 12, 2026", excerpt: "Still relying on social media alone? Here's why a professional website is your best growth investment." },
@@ -13,7 +14,9 @@ const BlogSection = () => (
   <section id="blog" className="bg-background py-20 md:py-28">
     <div className="section-padding">
       <div className="text-center mb-16">
-        <h2 className="heading-lg text-foreground">Insights & Resources</h2>
+        <AnimatedText as="h2" className="heading-lg" colorFrom="text-foreground/30" colorTo="text-foreground">
+          Insights & Resources
+        </AnimatedText>
         <p className="text-muted-foreground max-w-lg mx-auto mt-4">
           Practical tips and real stories to help your business succeed online.
         </p>
