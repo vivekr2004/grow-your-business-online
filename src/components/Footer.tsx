@@ -30,14 +30,13 @@ const Footer = () => (
         </div>
         <div className="md:w-1/3">
           <h4 className="font-heading font-bold text-section-dark-foreground uppercase text-sm mb-4">Location</h4>
-          <p className="text-section-dark-foreground/60 text-sm mb-4">767 5th Street,<br />21st Floor, New York, USA</p>
-          <h4 className="font-heading font-bold text-section-dark-foreground uppercase text-sm mb-2">Call Us On</h4>
-          <p className="text-section-dark-foreground/60 text-sm">+0223 4836 3028</p>
-          <p className="text-section-dark-foreground/60 text-sm">+0991 8394 9030</p>
+          <p className="text-section-dark-foreground/60 text-sm mb-4">Bangalore, Karnataka,<br />India</p>
+          <h4 className="font-heading font-bold text-section-dark-foreground uppercase text-sm mb-2">Email Us</h4>
+          <a href="mailto:hello@webcraft.studio" className="text-section-dark-foreground/60 text-sm hover:text-primary transition-colors">hello@webcraft.studio</a>
         </div>
       </div>
       <a
-        href="mailto:hello@webcraftstudio.com"
+        href="mailto:hello@webcraft.studio"
         className="block bg-primary rounded-2xl py-6 text-center hover:brightness-90 transition"
       >
         <div className="flex items-center justify-center gap-4">

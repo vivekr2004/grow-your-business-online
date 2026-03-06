@@ -2,10 +2,10 @@ import { ArrowUpRight } from "lucide-react";
 import portfolioImg from "@/assets/portfolio-project.jpg";
 
 const projects = [
-  { num: "001", name: "Deplo. Website Design", desc: "Here, we ignite imaginations, harnessing the power of technology" },
-  { num: "002", name: "Wloo. Branding Design", desc: "Here, we ignite imaginations, harnessing the power of technology" },
-  { num: "003", name: "Pilo. Product Design", desc: "Here, we ignite imaginations, harnessing the power of technology" },
-  { num: "004", name: "Gulay. Development", desc: "Here, we ignite imaginations, harnessing the power of technology" },
+  { num: "001", name: "FreshBite — Restaurant Website", desc: "A modern, mobile-first website with online menu and table booking for a Bangalore-based café." },
+  { num: "002", name: "UrbanNest — Real Estate Landing Page", desc: "High-converting landing page for a property startup, featuring virtual tours and lead capture forms." },
+  { num: "003", name: "ZenFit — Fitness Studio Platform", desc: "Responsive website with class schedules, trainer profiles, and membership sign-up integration." },
+  { num: "004", name: "Bloom & Co — E-Commerce Storefront", desc: "Clean, SEO-optimized storefront for a boutique flower delivery business in Bangalore." },
 ];
 
 const PortfolioSection = () => (
@@ -18,7 +18,7 @@ const PortfolioSection = () => (
         </span>
         <h2 className="heading-lg text-section-dark-foreground mt-6">Noteworthy Works</h2>
         <p className="text-section-dark-foreground/50 max-w-lg mx-auto mt-4">
-          Here, we ignite imaginations, harnessing the power of technology to create immersive digital experiences that captivate and inspire.
+          Real projects we've delivered for startups and small businesses in Bangalore and beyond.
         </p>
       </div>
       <div className="space-y-0">

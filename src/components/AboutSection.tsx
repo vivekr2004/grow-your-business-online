@@ -11,22 +11,22 @@ const AboutSection = () => {
               Our Creative Agency
             </span>
             <div className="mt-8">
-              <p className="text-5xl font-bold text-foreground">4M+</p>
-              <p className="text-sm uppercase tracking-widest text-muted-foreground mt-1">Customers</p>
+              <p className="text-5xl font-bold text-foreground">10+</p>
+              <p className="text-sm uppercase tracking-widest text-muted-foreground mt-1">Projects Delivered</p>
             </div>
           </div>
           <div className="lg:w-2/3">
             <h2 className="heading-lg text-foreground mb-6">
-              We're equipped to cater to all facets of{" "}
+              A young studio with big ambitions —{" "}
               <span className="text-muted-foreground">
-                your creative journey. Solutions that bring your vision with precision and finesse
+                we craft modern websites that help startups and small businesses make a powerful first impression online.
               </span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Welcome to <strong className="text-foreground">WebCraft Studio</strong>, a website development agency where creativity meets technology to redefine possibilities. Our studio is a dynamic space where digital expertise converges with inventive thinking to pioneer new frontiers in modern website development.
+              <strong className="text-foreground">WebCraft Studio</strong> is a Bangalore-based web development agency founded with one mission: to give startups and small businesses access to world-class website design without the enterprise price tag. We've already helped businesses across industries launch sleek, conversion-focused websites that drive real results.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              We specialize in business website design for small businesses and growing companies. Here, we ignite imaginations, harnessing the power of technology to create immersive digital experiences that captivate and inspire.
+              We're small by choice — every project gets our founders' direct attention. From strategy to launch, we work closely with you to build a site that truly represents your brand and converts visitors into customers.
             </p>
             <a
               href="#contact"

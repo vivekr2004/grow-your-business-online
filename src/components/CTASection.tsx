@@ -5,7 +5,7 @@ const CTASection = () => (
         Ready to Grow Your Business Online?
       </h2>
       <p className="text-section-dark-foreground/60 max-w-lg mx-auto mt-4 mb-8">
-        Let's build a modern, SEO-optimized website that converts visitors into customers. Start your project today.
+        Whether you're launching your first website or redesigning an existing one, we'll help you stand out online. Drop us an email to get started.
       </p>
       <a
         href="#contact"

@@ -14,23 +14,23 @@ const HeroSection = () => {
           </div>
           <div className="flex flex-col gap-4 lg:items-end">
             <div className="bg-primary rounded-2xl p-6 w-full lg:w-72">
-              <p className="text-xs font-bold uppercase tracking-widest text-primary-foreground/70 mb-1">
-                Agency Total Goals
+               <p className="text-xs font-bold uppercase tracking-widest text-primary-foreground/70 mb-1">
+                Our Impact So Far
               </p>
               <p className="text-sm text-primary-foreground/60 mb-4">
-                A future-focused digital studio
+                A Bangalore-based web studio
               </p>
               <div className="flex items-center justify-between border-b border-primary-foreground/20 pb-4 mb-4">
                 <div>
-                  <p className="text-4xl font-bold text-primary-foreground">94+</p>
-                  <p className="text-xs text-primary-foreground/60 mt-1">Projects Completed</p>
+              <p className="text-4xl font-bold text-primary-foreground">10+</p>
+                  <p className="text-xs text-primary-foreground/60 mt-1">Projects Delivered</p>
                 </div>
                 <ArrowUpRight className="text-primary-foreground" size={20} />
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-4xl font-bold text-primary-foreground">85%</p>
-                  <p className="text-xs text-primary-foreground/60 mt-1">Happy Clients</p>
+                  <p className="text-4xl font-bold text-primary-foreground">100%</p>
+                  <p className="text-xs text-primary-foreground/60 mt-1">Client Satisfaction</p>
                 </div>
                 <ArrowUpRight className="text-primary-foreground" size={20} />
               </div>

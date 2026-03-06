@@ -20,7 +20,7 @@ const WhyChooseUsSection = () => (
           Why Businesses Trust Us
         </h2>
         <p className="text-section-dark-foreground/60 max-w-xl mx-auto mt-4">
-          We combine modern website development with conversion-focused strategies to deliver results.
+          As a lean, founder-led studio, we give every project the attention it deserves — no outsourcing, no shortcuts.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">

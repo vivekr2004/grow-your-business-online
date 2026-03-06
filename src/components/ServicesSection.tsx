@@ -47,7 +47,7 @@ const ServicesSection = () => {
               Services We Provide
             </span>
             <p className="text-muted-foreground leading-relaxed mt-4">
-              Here, we ignite imaginations, harnessing the power of technology to create immersive digital experiences that captivate and inspire.
+              From brand-new business websites to full redesigns, we deliver solutions tailored for startups and growing businesses.
             </p>
           </div>
         </div>
