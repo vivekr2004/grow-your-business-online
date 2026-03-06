@@ -8,7 +8,7 @@ const CTASection = () => (
         Whether you're launching your first website or redesigning an existing one, we'll help you stand out online. Drop us an email to get started.
       </p>
       <a
-        href="#contact"
+        href="mailto:hello@webcraft.studio"
         className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wider hover:brightness-90 transition"
       >
         Start Your Project

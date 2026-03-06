@@ -44,8 +44,8 @@ const Footer = () => (
           <span className="heading-lg text-primary-foreground">Let's Talk</span>
         </div>
       </a>
-      <p className="text-section-dark-foreground/40 text-xs text-center mt-8 uppercase tracking-widest">
-        ©WebCraft 2025. All Rights Reserved.
+    <p className="text-section-dark-foreground/40 text-xs text-center mt-8 uppercase tracking-widest">
+        ©WebCraft 2026. All Rights Reserved.
       </p>
     </div>
   </footer>
